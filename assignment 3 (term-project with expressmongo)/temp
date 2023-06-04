@@ -1,0 +1,216 @@
+<!-- <div class="hero">
+    <img src="assets/hero-bg.jpg" width=100% style="  filter: brightness(50%);">
+    <div>
+      <h1 class="name">I am Zafar Ahmed</h1>
+      <div class="text-wrapper">
+        <p>Freelancer</p>
+        <p>Developer</p>
+        <p>Photographer</p>
+        <p>Designer</p>
+      </div>
+    </div>
+  </div> -->
+<!-- 
+  <div id="section4" class="card">
+    <div class="container">
+      <div class="profile">
+        <img src="assets/pp.png" width=30%>
+      </div>
+      <div class="info">
+        <p><b>Name:</b> Zafar Ahmed</p>
+        <p><b>Email:</b> zafar.ahmed2k17@gmail.com</p>
+        <p><b>Phone:</b> +92-3201416687</p>
+        <p><b>Profession:</b> Web Developer</p>
+      </div>
+    </div>
+    <div class="basic-info">
+      <h1>About me</h1>
+      <p>
+        Hello! I am Zafar Ahmed. Web Developer, Graphic Designer and
+        Photographer. <br /><br />
+        I am a motivated student with experience in mobile app development
+        using React Native. I have completed several university projects and
+        am eager to apply my skills to real-world projects. I am excited to
+        continue learning and growing in the field of mobile app development.<br /><br />
+        I am passionate about creating beautiful and functional websites that
+        enhance the user experience. I am constantly seeking new ways to improve
+        my skills and stay up-to-date with the latest technologies and trends in
+        web development. One aspect of web development that I particularly love
+        is UI design, as it allows me to create visually stunning interfaces that
+        are intuitive and easy to use.
+        I am excited for the opportunities and challenges that lie ahead in this constantly evolving industry.
+      </p>
+
+    </div>
+
+    <div class="bar">
+      <h1>Skill</h1>
+      <div class="div1">
+        <p class="hmtl">HTML</p>
+        <div class="container2">
+          <div class="skill html">80%</div>
+        </div>
+      </div>
+      <div class="div2">
+        <p class="java">JAVA</p>
+        <div class="container2">
+          <div class="skill php">70%</div>
+        </div>
+      </div>
+      <p class="cpp">C/C++</p>
+      <div class="container2">
+        <div class="skill cpp">90%</div>
+      </div>
+      <p class="python">Python</p>
+      <div class="container2">
+        <div class="skill python">85%</div>
+      </div>
+    </div>
+  </div> -->
+
+<!--   
+  <div class="serve">
+    <h1 id="section1" class="services">Services</h1>
+    <p class="pservices">You'll get different type of services here!</p>
+  </div>
+
+  <div style="margin-top: 60px;">
+    <div class="cardnew">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="assets/web.png" alt="Avatar" style="width:400px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Web Development</h1>
+            <p>Full stack web development services</p>
+            <p>As a full stack developer, I offer comprehensive development services that cover all aspects of a web or
+              mobile application. This includes everything from front-end development with HTML, CSS, and JavaScript, to
+              back-end development with server-side programming languages such as Ruby, Python, or Node.js.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="assets/app.png" alt="Avatar" style="width:400px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>App Development</h1>
+            <p>Android iOS development</p>
+            <p>As an experienced Android and iOS developer, I offer top-notch app development services to help you bring
+              your ideas to life. I will work closely with you to ensure that your vision is realized and your
+              expectations are exceeded.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="assets/design.png" alt="Avatar" style="width:400px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Graphic Designer</h1>
+            <p>Minimal and elegant Logo design</p>
+            <p>As a professional logo designer, I am committed to delivering high-quality and visually appealing logos
+              that accurately represent your brand. With a keen eye for detail, I specialize in creating custom logos
+              that are both unique and memorable.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="cardnew">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="assets/smm.png" alt="Avatar" style="width:400px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Digital Marketing</h1>
+            <p>Social media management services</p>
+            <p>As a social media manager, I specialize in helping businesses create and execute effective social media
+              strategies. With my expertise, I can help you increase your online presence, engage with your audience,
+              and ultimately drive more traffic and sales to your website.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="assets/ava.png" alt="Avatar" style="width:400px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Amazon Virtual Assistant</h1>
+            <p>All kind of virtual Assistant services</p>
+            <p>As an Amazon Virtual Assistant (AVA), I am dedicated to providing you with top-notch services that are
+              tailored to your specific needs. Whether you're an entrepreneur or a busy professional, I am here to help
+              you streamline your business operations and increase your productivity.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="assets/uiux.png" alt="Avatar" style="width:400px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>UI UX Designer</h1>
+            <p>Mobile & Web UI UX designing services</p>
+            <p>As a UI/UX designer, my main goal is to create intuitive, visually appealing designs that enhance the
+              user experience. I believe in putting the user at the forefront of the design process, understanding their
+              needs, and crafting designs that meet their requirements.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+<!-- 
+  <div>
+    <h1 id="section2" class="services">my clients</h1>
+    <p class="pservices">Trusted partnerships, outstanding results</p>
+  </div>
+  <div class="card" style="background-color: black;">
+    Add icon library
+
+    <div class="min-card">
+      <img src="assets/jazzy.png" alt="John" style="width:100%">
+      <h1>Mufti Jahanzaib</h1>
+      <p class="title">Data Science Expert & Data analyst</p>
+      <p>Mughalpura</p>
+      <a href="#"><i class="fa fa-dribbble"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <p><button>Contact</button></p>
+    </div>
+
+    <div class="min-card">
+      <img src="assets/bhaiya.png" alt="John" style="width:100%">
+      <h1>Subhan Bhaiya</h1>
+      <p class="title">Digital Marketing Expert and Strategist</p>
+      <p>Johar Town</p>
+      <a href="#"><i class="fa fa-dribbble"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <p><button>Contact</button></p>
+    </div>
+
+    <div class="min-card">
+      <img src="assets/gujjar.png" alt="John" style="width:100%">
+      <h1>Atif Gujjar</h1>
+      <p class="title">Ceo of Jati Umra Poultry Farm</p>
+      <p>Jati Umra Raiwand</p>
+      <a href="#"><i class="fa fa-dribbble"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <p><button>Contact</button></p>
+    </div>
+  </div> -->

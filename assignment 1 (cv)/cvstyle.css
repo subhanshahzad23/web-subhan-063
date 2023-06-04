@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.bodyy{
+    font-size: 0.7rem;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.bodyyr{
+    font-size: 0.7rem;
+    
+    margin-bottom: 20px;
+}
+.bodyyy{
+    font-size: 0.7rem;
+    
+    }
+.section:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.mainpagem {
+  max-width: 800px;
+  /* display: grid; */
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: black;
+}
+.mainpage {
+  position: relative;
+}
+
+.header-div {
+  width: 760px;
+  height: 200px;
+
+  float: right;
+  border-top-left-radius: 90px 50%;
+  border-bottom-left-radius: 90px 50%;
+
+  background-color: #C99784;
+
+  z-index: 2;
+  position: absolute;
+
+  top: 50px;
+  right: 273px;
+  display: flex;
+  flex-direction: row;
+}
+.img-div {
+  width: 160px;
+  height: 180px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.name-div{
+    font-size: 1.5rem;
+    color: black;
+    margin-left: 50px;
+
+}
+.n{
+    font-size: 3rem;
+    color: black;
+    margin-left: 50px;
+
+}
+.subname{
+    font-size: 1.75rem;
+    color: black;
+    margin-left: 54px;
+
+}
+.line{
+    background-color: black;
+    border-color: black;
+    height: 5px;
+    width: 460px;
+    margin-right: -18px;
+    
+    margin-top: -60px;
+}
+
+
+.left-div {
+  position: relative;
+
+  background-color: white;
+  width: 45%;
+  height: 1000px;
+  float: left;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
+}
+
+.section-headers {
+    
+  
+  background-color: #241F21;
+  height: 35px;
+  overflow: hidden;
+  width: 90%;
+  border-top-right-radius: 20px 50%;
+  border-bottom-right-radius: 20px 50%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+}
+
+.over {
+  z-index: 2;
+  position: absolute;
+
+}
+.section-headers-r {
+  font-size: 1rem;
+  background-color: #241F21;
+  height: 35px;
+  overflow: hidden;
+  width: 95%;
+  border-top-left-radius: 20px 50%;
+  border-bottom-left-radius: 20px 50%;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.right-div {
+  position: relative;
+  background-color: #8D4B55;
+  width: 55%;
+  height: 1000px;
+  float: left;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.headers {
+    font-size: 1.25rem;
+  
+  text-align: left;
+  justify-content: center;
+  margin-left: 25px;
+  margin-top: 1px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.bold{
+ font-weight: 1rem;
+}
+
+.circle {
+  height: 13px;
+  width: 13px;
+  background-color: #C99784;
+  border-radius: 50%;
+  display: inline-block;
+  align-self: center;
+  position: relative;
+  margin-left: 14em;
+}
+.circle {
+  height: 13px;
+  width: 13px;
+  background-color: #C99784;
+  border-radius: 50%;
+  display: inline-block;
+  align-self: center;
+  position: relative;
+  margin-left: 14em;
+}
+
+.circle-r {
+  height: 13px;
+  width: 13px;
+  background-color: #C99784;
+  border-radius: 50%;
+  display: inline-block;
+  align-self: center;
+  margin-left: 10px;
+}
