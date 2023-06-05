@@ -1,0 +1,51 @@
+<h3><%=pageTitle %></h3>
+
+<% for( let index = 0; index < deals.length; index++ ) { %>
+
+  <div class="product" id="product-<%= index %>">
+    <h2 class="product-title">
+      <%= deals[index].title %>
+      
+    </h2>
+    <button class="btn btn-secondary">View Details</button>
+    <a
+      href="/deals/add-to-cart/<%= deals[index]._id %>"
+      class="btn btn-secondary"
+      >Add To Cart</a
+    >
+
+    <form action="/deals/delete" method="POST">
+      <input type="hidden" name="title" value="<%= deals[index].title %>" />
+      <button type="submit" class="btn btn-danger">Remove</button>
+    </form>
+  </div>
+
+<% } %>
+
+<button
+  class="btn btn-secondary add-new"
+  data-id="new"
+  style="margin-top: 10px"
+>
+  Add New
+</button>
+<div class="new-deal-form" id="new-deal-form-new" style="display: none">
+  <form action="/deals" method="POST">
+    <input type="text" name="title" placeholder="Title" required />
+    <input type="number" name="capacity" placeholder="Capacity" required />
+    <input type="number" name="size" placeholder="Size" required />
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<script>
+  const addNewButtons = document.querySelectorAll(".add-new");
+
+  addNewButtons.forEach((button) => {
+    button.addEventListener("click", (e) => {
+      const id = e.target.dataset.id;
+      const form = document.querySelector(`#new-deal-form-${id}`);
+      form.style.display = "block";
+    });
+  });
+</script>
