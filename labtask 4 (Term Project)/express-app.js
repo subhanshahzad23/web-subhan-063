@@ -28,6 +28,7 @@ app.use(
 app.use(require("./middlewares/checkSession"));
 app.set("view engine", "ejs");
 
+app.use("/", require("./routes/deals"));
 
 app.use("/", require("./routes/auth"));
 
@@ -43,6 +44,13 @@ app.get ('/', (req, res) => {
   res.render ('homepage');
 });
 
+const Product = require('./models/Deal');
+
+
+
+
+
+
 app.use((req, res, next) => {
   res.status(404).send("Not Found");
 });
@@ -54,7 +62,7 @@ app.listen(4500, () => {
 
 const mongoose = require("mongoose");
 mongoose
-  .connect("mongodb+srv://admin:admin123@cluster0.b63lpfg.mongodb.net/", { useNewUrlParser: true })
+  .connect("mongodb+srv://admin:admin123@cluster0.b63lpfg.mongodb.net/items", { useNewUrlParser: true })
   .then(() => console.log("Connected to Mongo ...."))
   .catch((error) => console.log(error.message));
 

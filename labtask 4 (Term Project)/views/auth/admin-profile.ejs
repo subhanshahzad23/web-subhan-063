@@ -1,0 +1,57 @@
+<!-- Products -->
+<section id="products" class="products">
+  <h1 class="heading" style="margin-top: 100px">
+    Latest <span>Products</span>
+  </h1>
+
+  <!-- Add New Product Form -->
+  <button id="openFormBtn">Add Product</button>
+
+  <div id="formPopup" class="form-popup btn1">
+    <form
+      id="addProductForm"
+      action="/deals"
+      method="POST"
+      class="add-product-form"
+    >
+      <input type="text" name="title" placeholder="Title" required />
+      <input type="number" name="price" placeholder="Price" required />
+      <textarea
+        name="description"
+        placeholder="Description"
+        required
+      ></textarea>
+      <button type="submit">Add Product</button>
+    </form>
+  </div>
+
+  <div class="box-container">
+    <% for (let index = 0; index < deals.length; index++) { %>
+    <div class="box">
+      <div class="icons">
+        <form
+          action="/deals/<%= deals[index]._id %>"
+          method="POST"
+          class="remove-product-form"
+        >
+          <button type="submit" class="fa-solid fa-trash"></button>
+        </form>
+        <a href="" class="fa-solid fa-eye"></a>
+      </div>
+      <img src="assets/product-1.png" />
+      <div class="content">
+        <h3><%= deals[index].title %></h3>
+        <div class="price">Rs.<%= deals[index].price %><span>Rs.70</span></div>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p><%= deals[index].description %></p>
+      </div>
+    </div>
+    <% } %>
+  </div>
+</section>

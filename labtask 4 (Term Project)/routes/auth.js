@@ -2,6 +2,8 @@ const express = require("express");
 const bcrypt = require("bcryptjs");
 let router = express.Router();
 let User = require("../models/User");
+let Deal = require("../models/Deal");
+
 let sessionAuth = require("../middlewares/sessionAuth");
 let admin = require("../middlewares/admin");
 
@@ -60,6 +62,8 @@ router.get("/profile", sessionAuth, async (req, res) => {
 });
 
 router.get("/admin-profile", sessionAuth, admin, async (req, res, next) => {
+  let deals = await Deal.find();
+
   res.render("auth/admin-profile");
 });
 

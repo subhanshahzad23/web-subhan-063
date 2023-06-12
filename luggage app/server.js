@@ -42,7 +42,7 @@ app.use((req, res, next) => {
   res.status(404).send("Not Found");
 });
 
-app.listen(5500, () => {
+app.listen(4500, () => {
   console.log("Server Started");
 });
 const mongoose = require("mongoose");

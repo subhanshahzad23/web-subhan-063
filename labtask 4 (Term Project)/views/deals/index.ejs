@@ -1,0 +1,36 @@
+<!-- Products -->
+<section id="products" class="products" >
+  <h1 class="heading" style="margin-top: 100px;">Latest <span>Products</span></h1> 
+
+  <div class="box-container">
+    <% for( let index = 0; index < deals.length; index++ ) { %>
+    <div class="box">
+      <div class="icons">
+        <a href="" class="fa-solid fa-heart"></a>
+        <a
+          href="/deals/add-to-cart/<%= deals[index]._id %>"
+          class="fa-solid fa-cart-arrow-down"
+        ></a>
+        <a href="" class="fa-solid fa-eye"></a>
+      </div>
+      <img src="assets/product-1.png" />
+      <div class="content">
+        <h3><%= deals[index].title %></h3>
+        <div class="price">
+          Rs.<%= deals[index].price %><span>Rs.70</span>
+        </div>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <a href="/deals/add-to-cart/<%= deals[index]._id %>" class="btn1"
+          >Add To Cart</a
+        >
+      </div>
+    </div>
+    <% } %>
+  </div>
+</section>

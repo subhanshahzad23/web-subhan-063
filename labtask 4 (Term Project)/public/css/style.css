@@ -6,6 +6,11 @@
     --orange: #ff9f1a;
 }
 
+a {
+    text-decoration: none;
+  }
+  
+
 /* CSS Reset */
 * {
     font-family: 'Poppins', sans-serif;
@@ -48,16 +53,22 @@ header .navbar a {
     font-size: 1.7rem;
     color: var(--black);
     margin: 0 1rem;
+    text-decoration: none;
+
 }
 
 header .icons a {
     font-size: 2.5rem;
     color: var(--black);
     margin-left: 1.5rem;
+    text-decoration: none;
+
 }
 
 header .icons a:hover {
-    color: var(--orange)
+    color: var(--orange);
+    text-decoration: none;
+
 }
 
 #menu-bar {
@@ -93,11 +104,28 @@ section {
     font-size: 1.7rem;
     color: var(--black);
     cursor: pointer;
+    background-color: blue;
+    padding: 0.8rem 3rem;
+}
+
+.btn1 {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border: .2rem solid var(--black);
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: var(--black);
+    cursor: pointer;
     background-color: white;
     padding: 0.8rem 3rem;
 }
 
-.btn:hover {
+
+
+
+
+.btn1:hover {
     color: white;
     background-color: var(--orange);
     border: .2rem solid var(--orange);
@@ -274,11 +302,15 @@ section {
     border-radius: .5rem;
     background: #fff;
     margin-top: .5rem;
+    text-decoration: none;
+
 }
 
 .products .box-container .box .icons a:hover {
     background: var(--orange);
-    color: white
+    color: white;
+    text-decoration: none;
+
 }
 
 .products .box-container .box .content h3 {
@@ -478,8 +510,8 @@ section {
     margin-top: 1rem;
 }
 
-.newsletter .content form .btn {
-    border-radius: 0;
+.newsletter .content form .btn1 {
+    border-radius: 20%;
 }
 
 /* Footer */
@@ -507,10 +539,13 @@ section {
    font-size: 1.5rem;
    padding-bottom: 1.5rem;
    display: block;
+   text-decoration: none;
 }
 
 .footer .box-container .box a:hover {
-    color: var(--orange)
+    color: var(--orange);
+    text-decoration: none;
+
 }
 
 /* Media Queries */
@@ -552,6 +587,8 @@ section {
         border: .1rem solid rgba(0,0,0,0.1);
         margin: 1.5rem;
         text-align: center;
+        text-decoration: none;
+
     }
 }
 
@@ -570,6 +607,10 @@ section {
     .home .slide-container .slide .image {
         padding-bottom: 6rem;
     }
+}
+
+a {
+    text-decoration: none;
 }
 
 
